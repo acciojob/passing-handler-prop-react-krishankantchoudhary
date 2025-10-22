@@ -1,9 +1,18 @@
 .fix-box {
-    width: 250px;
+    /* width: 250px;
     height: 250px;
     margin: 20px;
     border: 1px white dotted;
-    border-radius: 5px;
+    border-radius: 5px; */
+    width: 120px;
+  height: 120px;
+  background: white;
+  margin: 15px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 #master{

@@ -20,11 +20,7 @@ html, body {
     top: -15%;
 }
 
-.holder {
-    display: flex;
-    margin: auto;
-    width: fit-content;
-}
+
 
 button {
     padding: 15px 32px;
@@ -35,6 +31,7 @@ button {
     margin: 14px 12px;
     cursor: pointer;
     border-radius: 4px;
+    
 }
 
 .btn-blue {
@@ -50,4 +47,10 @@ button {
 .btn-green {
     background: rgb(44, 209, 88);
     color: black;
+}
+
+.row{
+    display: flex;
+    justify-content: center;        
+    align-items: center;
 }
