@@ -10,7 +10,7 @@ const Selection = ({ applyColor }) => {
       style={selectionStyle} // apply the background dynamically
       onClick={() => applyColor(setSelectionStyle)} // change color on click
     >
-        <p>Selection</p>
+        <p id="inside">Selection</p>
     </div>
   );
 };
